@@ -1,0 +1,64 @@
+CSS
+
+- Cosa è il ccs e quali sono le sue applicazioni
+- operatori del ccs
+- in ccs come si rappresenta la possibilità di interazione tra due processi
+- Come rappresento la possibilità di sincronizzazione nei processi CCS
+- Congruenza
+- Definire le transizioni
+- Equivalenza rispetto alle tracce
+- Bisimulazione debole/forte
+- regole attaccante/difensore
+- semantica interleaving (l'esecuzione di azioni all'interno di processi paralleli avviene in sequenza, alternando tra i processi coinvolti.)
+
+
+Reti
+
+- Sistema elementare
+- Regola di Scatto
+- Quando possiamo parlare di transizioni concorrenti (eventi concorrenti nelle reti di petri)
+- Per dire che un evento è abilitato devo fare riferimento a un altro concetto, e dire cos'è un caso
+- Data una rete elementare con un caso iniziare, posso calcolare tutti i casi raggiungibili e disegnarli (voleva sapere i b tagli)
+- cosa è una rete causale
+- taglio in una rete
+- cos'è un insieme massimale
+- Insieme Parzialmente ordinato
+- Cosa significa che x precede y
+- cosa è un processo non sequenziale
+- Confusione e Conflitto
+- rete di occorrenze e a che cosa servono
+
+
+Correttezza
+
+- Sintassi logica proposizionale
+- Validità Tripla di Hoare
+- Regola di derivazione per la istruzione di scelta
+- Regola di derivazione per l'implicazione
+- regola di derivazione della sequenza
+- Definizione di Invariante
+- correttezza totale
+- che proprietà deve avere il variante E nella correttezza totale
+- differenza tra correttezza totale e parziale
+- Correttezza e Completezza
+- Supponiamo di avere un programma con una condizione di scelta e fissiamo una post condizione. Descrivere il procedimento per trovare la wp
+
+Logica Temporale
+
+- Modello di Kripke
+- Induzione LTL e Induzione CTL
+- relazione tra LTL e CTL
+- criterio di validità di una formula LTL nel modello di kripke
+- Definizione formale della semantica di G in LTL
+- Significato dell'UNTIL
+- UNTIL DEBOLE (W) and RELEASE (R)
+- Differenza tra proprietà (X, G, F ...) e formula (combina variabili, operatori logici, temporali)
+- Costruzione di F(Finally) e G(Globarly) partendo da UNTIL
+- CLT * (rimuove il vincolo di CTL: ogni cammino nel modello ha le stesse strutture di ramificazione)
+- Formule non traducibili tra CTL e LTL
+- Equivalenza tra Formule
+- Equivalenza di Modelli rispetto a una logica
+- Reticolo e Reticolo Completo
+- Punto Fisso/Kleene/Knater
+- Dove può essere utile/ dove usiamo il concetto di punto fisso.
+- calcolo mu e relazione tra calcolo mu e altre logiche
